@@ -40,10 +40,26 @@ const NavLink = styled.a`
   color: #374151;
   text-decoration: none;
   font-weight: 500;
-  transition: color 0.2s ease;
+  position: relative;
+  padding: 0.5rem 0;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #111827;
+    transition: width 0.3s ease;
+  }
 
   &:hover {
     color: #111827;
+    
+    &::after {
+      width: 100%;
+    }
   }
 `;
 
@@ -112,7 +128,7 @@ const Header = ({ title, author, date, heroImage, imageCaption }) => {
     <>
       <HeaderContainer isScrolled={isScrolled}>
         <Nav>
-          <Logo>Hankangjk</Logo>
+          <Logo>Nhóm 3 - Giáo dục sức khỏe</Logo>
           <NavLinks>
             <NavLink href="#overview">Tổng quan</NavLink>
             <NavLink href="#causes">Cách sơ cứu</NavLink>
@@ -136,4 +152,4 @@ const Header = ({ title, author, date, heroImage, imageCaption }) => {
   );
 };
 
-export default Header; 
+export default Header;
