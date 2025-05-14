@@ -72,13 +72,13 @@ const HomePage = () => {
           II. HƯỚNG DẪN CÁCH SƠ CỨU KHI BỊ NGỪNG TIM – NGỪNG THỞ
         </SectionTitle>
 
+        <img
+          src={cachhoisinhtimphoi}
+          alt="Nhận biết dấu hiệu ngừng tim"
+          style={{ width: "100%", borderRadius: "8px", margin: "1.5rem 0" }}
+        />
         <SubSection>
           <SubTitle>1. Nhận biết nạn nhân ngừng tim – ngừng thở</SubTitle>
-          <img
-            src={cachhoisinhtimphoi}
-            alt="Nhận biết dấu hiệu ngừng tim"
-            style={{ width: "100%", borderRadius: "8px", margin: "1.5rem 0" }}
-          />
           <Paragraph>Hãy kiểm tra ngay nếu bạn thấy ai đó:</Paragraph>
           <List>
             <ListItem>Bất tỉnh, không phản ứng khi gọi hoặc lay nhẹ</ListItem>
@@ -288,6 +288,39 @@ const HomePage = () => {
           />
         </SubSection>
 
+        <div
+          style={{
+            marginTop: "1rem",
+            padding: "1rem",
+            background: "#f8fafc",
+            borderRadius: "8px",
+          }}
+        >
+          <h4
+            style={{
+              color: "#1e40af",
+              marginBottom: "1rem",
+              fontSize: "1.1rem",
+            }}
+          >
+            Tài liệu tập huấn "Sơ cấp cứu, cấp cứu ban đầu các tai nạn thương tích và bệnh lý của trẻ”
+          </h4>
+          <List>
+            <ListItem>Quy trình sơ cấp cứu ép tim thổi ngạt</ListItem>
+            <ListItem>Quy trình sơ cấp cứu cố định gãy xương cẳng tay</ListItem>
+            <ListItem>Quy trình sơ cấp cứu bỏng</ListItem>
+            <ListItem>Xử trí vết thương bị trầy xước</ListItem>
+            <ListItem>
+              Một số tai nạn thường gặp và biện pháp sơ cấp cứu
+            </ListItem>
+            <ListItem>Cách sơ cứu khi bị ngộ độc thực phẩm</ListItem>
+            <ListItem>Sơ cứu khi bị chảy máu cam</ListItem>
+            <ListItem>Cách xử trí khi bị điện giật</ListItem>
+            <ListItem>Cách xử trí khi bị sốt cao co giật</ListItem>
+            <ListItem>Cách xử trí khi bị đuối nước</ListItem>
+          </List>
+        </div>
+
         <SubSection id="faq">
           <SubTitle>Câu hỏi thường gặp (FAQ)</SubTitle>
           <FAQList>
@@ -342,7 +375,8 @@ const HomePage = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Sơ cấp cứu, cấp cứu ban đầu các tai nạn thương tích và bệnh lý của trẻ
+                Sơ cấp cứu, cấp cứu ban đầu các tai nạn thương tích và bệnh lý
+                của trẻ
               </FAQLink>
             </FAQItem>
           </FAQList>
