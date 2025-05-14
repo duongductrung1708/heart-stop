@@ -296,15 +296,29 @@ const HomePage = () => {
             borderRadius: "8px",
           }}
         >
-          <h4
+          <a
+            href="https://mgminhtan.dautieng.edu.vn/y-te-hoc-duong/tai-lieu-tap-huan-so-cap-cuu-cap-cuu-ban-dau-cac-tai-nan-thuong-tich-va-benh-ly-cua-tre-309.html"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{
               color: "#1e40af",
               marginBottom: "1rem",
               fontSize: "1.1rem",
+              display: "block",
+              textDecoration: "none",
+              fontWeight: "500",
+              padding: "0.5rem 0",
+              borderBottom: "2px solid #e2e8f0",
+              transition: "all 0.2s ease",
+              cursor: "pointer",
+              "&:hover": {
+                color: "#2563eb",
+                borderBottomColor: "#2563eb"
+              }
             }}
           >
-            Tài liệu tập huấn "Sơ cấp cứu, cấp cứu ban đầu các tai nạn thương tích và bệnh lý của trẻ”
-          </h4>
+            Tài liệu tập huấn "Sơ cấp cứu, cấp cứu ban đầu các tai nạn thương tích và bệnh lý của trẻ"
+          </a>
           <List>
             <ListItem>Quy trình sơ cấp cứu ép tim thổi ngạt</ListItem>
             <ListItem>Quy trình sơ cấp cứu cố định gãy xương cẳng tay</ListItem>
@@ -367,16 +381,6 @@ const HomePage = () => {
                 rel="noopener noreferrer"
               >
                 Một số lưu ý khi thực hiện hồi sức tim phổi
-              </FAQLink>
-            </FAQItem>
-            <FAQItem>
-              <FAQLink
-                href="https://mgminhtan.dautieng.edu.vn/y-te-hoc-duong/tai-lieu-tap-huan-so-cap-cuu-cap-cuu-ban-dau-cac-tai-nan-thuong-tich-va-benh-ly-cua-tre-309.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Sơ cấp cứu, cấp cứu ban đầu các tai nạn thương tích và bệnh lý
-                của trẻ
               </FAQLink>
             </FAQItem>
           </FAQList>
