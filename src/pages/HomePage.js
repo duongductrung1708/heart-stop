@@ -336,6 +336,15 @@ const HomePage = () => {
                 Một số lưu ý khi thực hiện hồi sức tim phổi
               </FAQLink>
             </FAQItem>
+            <FAQItem>
+              <FAQLink
+                href="https://mgminhtan.dautieng.edu.vn/y-te-hoc-duong/tai-lieu-tap-huan-so-cap-cuu-cap-cuu-ban-dau-cac-tai-nan-thuong-tich-va-benh-ly-cua-tre-309.html"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Sơ cấp cứu, cấp cứu ban đầu các tai nạn thương tích và bệnh lý của trẻ
+              </FAQLink>
+            </FAQItem>
           </FAQList>
         </SubSection>
       </Section>
